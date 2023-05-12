@@ -1,5 +1,5 @@
 {
     "titles": ["ML Specialization, Stanford","IIT, Merit Certificate", "Supervised ML", "Unsupervised ML", "Advance Learning Algo.", "Tensorflow Specialization", "CNN", "NLP", "Tensorflow Introduction", "Sequence, Time Series & Pred.", "GDSC NMIMS Shirpur"],
-    "deployedCertificatesPath": ["https://google.com", "", "", "", "", "", "", "", "", "", ""],
+    "deployedCertificatesPath": ["https://github.com/Sam-Varghese/Sam-portfolio/blob/e66350b8efd8303fc8f60946688a3ac12dd51edf/certificates/CourseCertificate.pdf", "", "", "", "", "", "", "", "", "", ""],
     "imagePaths": ["./certificates/MLSepcialization.png", "./certificates/IITK.jpg","./certificates/SupervisedML.png", "./certificates/UnsupervisedML.png", "./certificates/AdvanceLearningML.png", "./certificates/TfSpecialization.png", "./certificates/CNN.png", "./certificates/NLP.png", "./certificates/TFIntro.png", "./certificates/SequenceTimeSeries.png", "./certificates/gdscShirpur.png"]
 }

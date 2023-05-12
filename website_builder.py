@@ -1,9 +1,11 @@
+# Just update the JSON files, and run this code to update the website as per JSON data
+
 import json
 
 achievements_data = open("./achievements.json").read()
 achievements_data = json.loads(achievements_data)
 
-file_content = open("./rough.html").read()
+file_content = open("./index.html").read()
 
 achievements_string = ""
 
@@ -67,9 +69,16 @@ for i in range(len(projects_data["titles"])):
             </div>
     """.format(projects_data["titles"][i], projects_data["imagePaths"][i], projects_data["desc"][i], projects_data["links"][i])
 
+# Updating achievements
 
 file_content=replacer(file_content, "<!-- Achievements flag -->", achievements_string)
+
+# Updating certifications
+
 file_content = replacer(file_content, "<!-- Certifications flag -->", certifications_string)
+
+# Updating projects
+
 file_content = replacer(file_content, "<!-- Projects flag -->", projects_string)
 
 open("./rough.html", "w").write(file_content)

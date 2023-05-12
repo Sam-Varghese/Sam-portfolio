@@ -39,9 +39,18 @@ h1 {
     width: 100%;
     flex-wrap: wrap;
     z-index: 999;
-    background-color: rgba(11, 12, 16, 0.8);
     /* background-color: rgba(69, 162, 158, 0.8); */
+}
+
+.innerNavBar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
     background-image: linear-gradient(rgba(69, 162, 158, 0.8), #1f2833);
+    border-radius: 1vw;
+    flex-wrap: wrap;
+    color: white;
+    /* border: 2px solid white; */
 }
 
 .navbar .navItem {
@@ -67,33 +76,33 @@ h1 {
  * ----------------------------------------
  */
 @-webkit-keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
 }
 @keyframes tracking-in-contract {
-  0% {
-    letter-spacing: 1em;
-    opacity: 0;
-  }
-  40% {
-    opacity: 0.6;
-  }
-  100% {
-    letter-spacing: normal;
-    opacity: 1;
-  }
+    0% {
+        letter-spacing: 1em;
+        opacity: 0;
+    }
+    40% {
+        opacity: 0.6;
+    }
+    100% {
+        letter-spacing: normal;
+        opacity: 1;
+    }
 }
 
-.applyAnimation{
+.applyAnimation {
     animation-name: tracking-in-contract;
     animation-duration: 5s;
 }
@@ -110,198 +119,197 @@ h1 {
  * ----------------------------------------
  */
 @-webkit-keyframes flicker-in-1 {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0;
-  }
-  10.1% {
-    opacity: 1;
-  }
-  10.2% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  20.1% {
-    opacity: 1;
-  }
-  20.6% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  30.1% {
-    opacity: 1;
-  }
-  30.5% {
-    opacity: 1;
-  }
-  30.6% {
-    opacity: 0;
-  }
-  45% {
-    opacity: 0;
-  }
-  45.1% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  55% {
-    opacity: 1;
-  }
-  55.1% {
-    opacity: 0;
-  }
-  57% {
-    opacity: 0;
-  }
-  57.1% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  60.1% {
-    opacity: 0;
-  }
-  65% {
-    opacity: 0;
-  }
-  65.1% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  75.1% {
-    opacity: 0;
-  }
-  77% {
-    opacity: 0;
-  }
-  77.1% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 1;
-  }
-  85.1% {
-    opacity: 0;
-  }
-  86% {
-    opacity: 0;
-  }
-  86.1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    10.1% {
+        opacity: 1;
+    }
+    10.2% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    20.1% {
+        opacity: 1;
+    }
+    20.6% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    30.1% {
+        opacity: 1;
+    }
+    30.5% {
+        opacity: 1;
+    }
+    30.6% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    45.1% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    55.1% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 0;
+    }
+    57.1% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    60.1% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    65.1% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    75.1% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 0;
+    }
+    77.1% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    85.1% {
+        opacity: 0;
+    }
+    86% {
+        opacity: 0;
+    }
+    86.1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 @keyframes flicker-in-1 {
-  0% {
-    opacity: 0;
-  }
-  10% {
-    opacity: 0;
-  }
-  10.1% {
-    opacity: 1;
-  }
-  10.2% {
-    opacity: 0;
-  }
-  20% {
-    opacity: 0;
-  }
-  20.1% {
-    opacity: 1;
-  }
-  20.6% {
-    opacity: 0;
-  }
-  30% {
-    opacity: 0;
-  }
-  30.1% {
-    opacity: 1;
-  }
-  30.5% {
-    opacity: 1;
-  }
-  30.6% {
-    opacity: 0;
-  }
-  45% {
-    opacity: 0;
-  }
-  45.1% {
-    opacity: 1;
-  }
-  50% {
-    opacity: 1;
-  }
-  55% {
-    opacity: 1;
-  }
-  55.1% {
-    opacity: 0;
-  }
-  57% {
-    opacity: 0;
-  }
-  57.1% {
-    opacity: 1;
-  }
-  60% {
-    opacity: 1;
-  }
-  60.1% {
-    opacity: 0;
-  }
-  65% {
-    opacity: 0;
-  }
-  65.1% {
-    opacity: 1;
-  }
-  75% {
-    opacity: 1;
-  }
-  75.1% {
-    opacity: 0;
-  }
-  77% {
-    opacity: 0;
-  }
-  77.1% {
-    opacity: 1;
-  }
-  85% {
-    opacity: 1;
-  }
-  85.1% {
-    opacity: 0;
-  }
-  86% {
-    opacity: 0;
-  }
-  86.1% {
-    opacity: 1;
-  }
-  100% {
-    opacity: 1;
-  }
+    0% {
+        opacity: 0;
+    }
+    10% {
+        opacity: 0;
+    }
+    10.1% {
+        opacity: 1;
+    }
+    10.2% {
+        opacity: 0;
+    }
+    20% {
+        opacity: 0;
+    }
+    20.1% {
+        opacity: 1;
+    }
+    20.6% {
+        opacity: 0;
+    }
+    30% {
+        opacity: 0;
+    }
+    30.1% {
+        opacity: 1;
+    }
+    30.5% {
+        opacity: 1;
+    }
+    30.6% {
+        opacity: 0;
+    }
+    45% {
+        opacity: 0;
+    }
+    45.1% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 1;
+    }
+    55% {
+        opacity: 1;
+    }
+    55.1% {
+        opacity: 0;
+    }
+    57% {
+        opacity: 0;
+    }
+    57.1% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    60.1% {
+        opacity: 0;
+    }
+    65% {
+        opacity: 0;
+    }
+    65.1% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 1;
+    }
+    75.1% {
+        opacity: 0;
+    }
+    77% {
+        opacity: 0;
+    }
+    77.1% {
+        opacity: 1;
+    }
+    85% {
+        opacity: 1;
+    }
+    85.1% {
+        opacity: 0;
+    }
+    86% {
+        opacity: 0;
+    }
+    86.1% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
-
-.applyFlipAnim{
+.applyFlipAnim {
     animation-name: flicker-in-1;
     animation-duration: 5s;
 }
@@ -471,16 +479,15 @@ a {
         object-fit: contain;
     }
 
-    .socials{
+    .socials {
         width: 8vw;
         margin: 3vw;
     }
-    .institution img{
+    .institution img {
         width: 80vw;
     }
 
-    .certificates img{
+    .certificates img {
         width: 40vw !important;
-        /* object-fit: cover !important; */
     }
 }
