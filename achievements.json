@@ -1,0 +1,38 @@
+{
+    "achievementsTitle": [
+        "Tech Lead, TEDxNMIMSIndore",
+        "AIR 6, IITK",
+        "CR, NMIMS",
+        "Camp. Ambsdr, Devincept",
+        "Microsoft Technology Associate",
+        "5 ⭐ C++, Hackerrank",
+        "5 ⭐ Python, Hackerrank",
+        "3 ⭐ Prob. Solver, Hackerrank",
+        "'A' Grade NCC",
+        "0.74% Stack Overflow"
+    ],
+    "achievementsImage": [
+        "achievementsImages/TEDxNMIMSIndore.jpg",
+        "./images/AIR6IITK.jpg",
+        "achievementsImages/NMIMS.jpg",
+        "achievementsImages/devincept.jpg",
+        "achievementsImages/MicLogo.png",
+        "achievementsImages/hackerrank.jpg",
+        "achievementsImages/hackerrank.jpg",
+        "achievementsImages/hackerrank.jpg",
+        "achievementsImages/NCC.jpg",
+        "achievementsImages/stackOverflow.jpg"
+    ],
+    "achievementsDescription": [
+        "Selected as Tech Lead for TEDxNMIMSIndore, managed all technical aspects, created & deployed React website on AWS.",
+        "Designed underwater exploration device, selected for IITK techfest, secured AIR 6 & invited to IITK.",
+        "Class representative of NMIMS MBATech branch, selected by Dean Dr Aaquil based on grades, responsible for decisions & coordination.",
+        "Selected as devincept campus ambassador after interviews, attended sessions, hackathons & found tech experts for events.",
+        "Recognized as Microsoft Technology Associate in 12th grade after clearing 98-381 exam for python programming language.",
+        "Attained 5⭐ rating as C++ coder at Hackerrank, learned advanced concepts like multiple inheritance, polymorphism & operator overloading.",
+        "Attained 5⭐ rating as Python coder at Hackerrank, learned advanced concepts like OOPs.",
+        "Attained 3⭐ rating as problem solver at Hackerrank, primarily used C++ to solve difficult and logical problems.",
+        "Received A grade in National Cadet Corp for attending camps & learning about rifles and instruments used by India Army.",
+        "Contributed to Stack Overflow for months, cleared doubts of many beginners and experts, ranked as top 0.74% contributors worldwide."
+    ]
+}

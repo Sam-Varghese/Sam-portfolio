@@ -1,0 +1,235 @@
+body {
+    background-color: #0b0c10;
+    /* text-align: center; */
+    color: white;
+    font-size: 1.5vw;
+    font-family: "Poppins", sans-serif;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#nameHeading {
+    margin-top: 5vw;
+}
+
+h1 {
+    color: #66fcf1;
+    text-align: center;
+    font-size: 3vw;
+}
+
+.twoDivision {
+    display: flex;
+    /* border: 2px solid white; */
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 80vh;
+    /* border: 2px solid white; */
+}
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    flex-wrap: wrap;
+    z-index: 999;
+    background-color: rgba(11, 12, 16, 0.8);
+    /* background-color: rgba(69, 162, 158, 0.8); */
+    background-image: linear-gradient(rgba(69, 162, 158, 0.8), #1f2833);
+}
+
+.navbar .navItem {
+    padding-right: 1vw;
+    padding-left: 1vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0.5vw;
+    border: 0.1vw solid #66fcf1;
+    border-radius: 0.5vw;
+    cursor: pointer;
+}
+
+#samImage {
+    width: 30vw;
+}
+
+#achievementsPage {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#achievementsPage #achievement {
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    margin: 1vw;
+    border-radius: 0.5vw;
+    border: 0.3vw solid #45a29e;
+}
+
+#achievementsPage #achievement div {
+    margin: 0.5vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#achievementsPage #achievement .title,
+.institution .title {
+    font-size: 2vw;
+    border: 0.3vw solid #66fcf1;
+    text-align: center;
+    min-height: 15vh;
+}
+
+#achievementsPage #achievement .desc {
+    /* border: 2px solid white; */
+    min-height: 20vh;
+}
+
+.institution .title {
+    min-height: 0;
+}
+
+#achievementsPage #achievement .image img {
+    width: 30vw;
+    height: 30vh;
+    object-fit: contain;
+}
+
+#achievementsPage #achievement .button {
+    background-color: #45a29e;
+    color: white;
+}
+
+#achievementsPage #achievement a {
+    text-decoration: none;
+}
+
+.institution {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.institution .title {
+    width: 100%;
+    margin-top: 1vw;
+}
+
+.institution img {
+    width: 30vw;
+    margin: 1vw;
+}
+
+.institution .desc {
+    margin: 1vw;
+    margin-right: 2vw;
+    margin-left: 2vw;
+}
+
+iframe {
+    width: 100%;
+}
+
+.socials {
+    width: 3vw;
+    margin: 1vw;
+    cursor: pointer;
+}
+.contact {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.contactIcons {
+    display: flex;
+    justify-content: center;
+}
+
+a {
+    color: #66fcf1;
+}
+
+/* Small devices (landscape phones, 576px and up) */
+@media screen and (max-width: 576px) {
+    body {
+        font-size: 3.5vw;
+    }
+
+    .navbar {
+        background-color: #45a29e;
+        color: black;
+        background-image: none;
+    }
+
+    .navbar .navItem {
+        border-color: white;
+    }
+
+    #nameHeading {
+        margin-top: 20vw;
+    }
+
+    h1 {
+        font-size: 10vw;
+    }
+
+    #samImage {
+        width: 70vw;
+    }
+
+    .twoDivision {
+        flex-direction: column;
+    }
+
+    #achievementsPage #achievement {
+        min-width: 45%;
+    }
+
+    #achievementsPage #achievement .title,
+    .institution .title {
+        font-size: 5vw;
+    }
+
+    #achievementsPage #achievement .image img {
+        width: 35vw;
+    }
+
+    iframe {
+        height: 50vh;
+    }
+
+    #achievementsPage #achievement .desc {
+        /* border: 2px solid white; */
+        min-height: 25vh;
+    }
+
+    #achievementsPage #achievement .image img {
+        width: 30vw;
+        height: 20vh;
+        object-fit: contain;
+    }
+
+    .socials{
+        width: 8vw;
+        margin: 3vw;
+    }
+    .institution img{
+        width: 80vw;
+    }
+
+    .certificates img{
+        width: 40vw !important;
+        /* object-fit: cover !important; */
+    }
+}
