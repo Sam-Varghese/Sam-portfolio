@@ -40,13 +40,15 @@ h1 {
     flex-wrap: wrap;
     z-index: 999;
     /* background-color: rgba(69, 162, 158, 0.8); */
+    background-image: linear-gradient(rgba(110, 242, 233, 0.6), rgba(4, 4, 5, 0.5));
+    box-shadow: #545660 0.5vw 0.5vw 1vw;
 }
 
 .innerNavBar {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    background-image: linear-gradient(rgba(69, 162, 158, 0.8), #1f2833);
+    background-image: linear-gradient(rgba(69, 180, 175, 0.8), #1f2833);
     border-radius: 1vw;
     flex-wrap: wrap;
     color: white;
