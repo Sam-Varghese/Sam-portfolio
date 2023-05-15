@@ -83,7 +83,7 @@
         <div class="institution">
             <div class="title">NMIMS, Indore</div>
             <img
-                src="https://www.nmims.edu/images/home-slide/m-school-1.webp"
+                src="https://www.nmims.edu/images/home-slide/m-school-1.jpg"
                 alt=""
             />
             <div class="desc">
@@ -103,7 +103,7 @@
         <div class="institution">
             <div class="title">SICA 54</div>
             <img
-                src="https://schools.thelearningpoint.net/pics-cbse/schoolPic03292.webp"
+                src="https://schools.thelearningpoint.net/pics-cbse/schoolPic03292.png"
                 alt=""
             />
             <div class="desc">
@@ -586,6 +586,25 @@
             const headings = document.querySelectorAll(".heading");
             headings.forEach((heading) => {
                 observer.observe(heading);
+            });
+
+            // Animations for all images
+
+            const observer1 = new IntersectionObserver(
+                (entries, observer) => {
+                    entries.forEach((entry) => {
+                        if (entry.isIntersecting) {
+                            entry.target.classList.add("applyImageAnimations");
+                            observer.unobserve(entry.target);
+                        }
+                    });
+                },
+                { threshold: 0.1 }
+            );
+
+            const images = document.querySelectorAll("img");
+            images.forEach((image) => {
+                observer1.observe(image);
             });
         </script>
         
