@@ -138,7 +138,7 @@ h1 {
 #achievementsPage #achievement .title,
 .institution .title {
     font-size: 2vw;
-    /* border: 0.3vw solid #66fcf1; */
+    border: 0.3vw solid #66fcf1;
     text-align: center;
     min-height: 15vh;
 }
