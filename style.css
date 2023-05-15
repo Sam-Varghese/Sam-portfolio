@@ -138,7 +138,7 @@ h1 {
 #achievementsPage #achievement .title,
 .institution .title {
     font-size: 2vw;
-    border: 0.3vw solid #66fcf1;
+    /* border: 0.3vw solid #66fcf1; */
     text-align: center;
     min-height: 15vh;
 }
@@ -214,6 +214,10 @@ a {
     color: #66fcf1;
 }
 
+img{
+    opacity: 0;
+}
+
 @keyframes imageAnimations{
     0%{
         transform: translateY(-5vh);
@@ -270,7 +274,17 @@ a {
     }
 
     #achievementsPage #achievement .image img {
-        width: 35vw;
+        width: 40vw;
+        margin: 0;
+        padding: 0;
+        /* border: 2px solid red; */
+        
+    }
+    #achievementsPage #achievement .image{
+        width: 40vw;
+        /* border: 2px solid blue; */
+        padding: 0;
+        margin: 0.5vw;
     }
 
     iframe {

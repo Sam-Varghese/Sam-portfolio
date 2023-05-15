@@ -1,41 +1,33 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <style>
-        .visible {
-  opacity: 1;
-  transform: translateX(0);
-}
-.my-element {
-  opacity: 0;
-  transform: translateX(-50px);
-  transition: all 0.5s ease;
-}
+  <title>Intersection Observer Example</title>
+  <style>
+    .older-class {
+      background-color: blue;
+    }
 
-    </style>
+    .new-class {
+      background-color: red;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-    <script>
-        const options = {
-  rootMargin: '0px',
-  threshold: 0.5
-};
+  <div class="box older-class">Observed Element</div>
 
-const observer = new IntersectionObserver((entries, observer) => {
-  entries.forEach(entry => {
-    if (entry.isIntersecting) {
-      entry.target.classList.add('visible');
-      observer.unobserve(entry.target);
-    }
-  });
-}, options);
-const target = document.querySelector('.my-element');
-observer.observe(target);
+  <script>
+    var observer = new IntersectionObserver(function(entries, observer) {
+      entries.forEach(function(entry) {
+        if (entry.isIntersecting) {
+          entry.target.classList.remove('older-class');
+          entry.target.classList.add('new-class');
+        }
+      });
+    });
 
-    </script>
+    var observedElement = document.querySelector('.box');
+    observer.observe(observedElement);
+  </script>
 </body>
 </html>
