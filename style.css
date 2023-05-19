@@ -6,7 +6,7 @@
     --secondary-color: #45a29e;
 }
 
-html{
+html {
     scroll-behavior: smooth;
 }
 
@@ -377,12 +377,12 @@ img {
     animation: imageAnimations 3s;
 }
 
-.QRDiv{
+.QRDiv {
     display: flex;
     justify-content: center;
 }
 
-.QRDiv img{
+.QRDiv img {
     width: 20vw;
 }
 
@@ -504,5 +504,9 @@ img {
 
     .contactUnitMethods {
         padding: 2vw;
+    }
+
+    .QRDiv img {
+        width: 30vw;
     }
 }
