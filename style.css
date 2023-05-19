@@ -6,6 +6,10 @@
     --secondary-color: #45a29e;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 /* Body */
 body {
     background-color: var(--main-bg-color);
