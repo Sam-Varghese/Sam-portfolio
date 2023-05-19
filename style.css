@@ -377,6 +377,15 @@ img {
     animation: imageAnimations 3s;
 }
 
+.QRDiv{
+    display: flex;
+    justify-content: center;
+}
+
+.QRDiv img{
+    width: 20vw;
+}
+
 /* Small devices (landscape phones, 576px and up) */
 @media screen and (max-width: 576px) {
     /* Body */
