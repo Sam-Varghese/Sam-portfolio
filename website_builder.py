@@ -93,3 +93,5 @@ def get_current_time():
 file_content = replacer(file_content, "<!-- Current time stamp -->", get_current_time())
 
 open("./index.html", "w").write(file_content)
+
+print("Website updated sir.")
