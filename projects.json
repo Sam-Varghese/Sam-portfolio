@@ -5,14 +5,14 @@
         "Scientific Calculator"
     ],
     "imagePaths": [
-        "./images/math.jpg",
-        "./images/AIR6IITK.jpg",
+        "./images/math.webp",
+        "./images/AIR6IITK.webp",
         "./images/calculator.webp"
     ],
     "desc": [
         "A machine learning model which is capable of recognizing all the digits, as well as variables x, y, and z.",
         "Innovated underwater exploration machines by adjusting buoyancy through chemical reaction of Sodium Azide and Potassium Nitrate.",
-        "Made a scientific calculator out of HTML, CSS and JavaScript. Learnt Math.js framework and about API's."
+        "Made a scientific calculator with HTML, CSS and JavaScript. Learnt Math.js framework and about API's."
     ],
     "links": [
         "https://github.com/Sam-Varghese/Handwritten-Math-Symbol-Recognizer",

@@ -1,6 +1,7 @@
 # Just update the JSON files, and run this code to update the website as per JSON data
 
 import json
+from datetime import datetime
 
 achievements_data = open("./achievements.json").read()
 achievements_data = json.loads(achievements_data)
@@ -81,4 +82,14 @@ file_content = replacer(file_content, "<!-- Certifications flag -->", certificat
 
 file_content = replacer(file_content, "<!-- Projects flag -->", projects_string)
 
-open("./rough.html", "w").write(file_content)
+# Updating date
+
+def get_current_time():
+    now = datetime.now()
+    suffix = "th" if 11 <= now.day <= 13 else {1: "st", 2: "nd", 3: "rd"}.get(now.day % 10, "th")
+    formatted_time = now.strftime("%d{} %B, %Y %I %p").format(suffix)
+    return formatted_time + ", IST"
+
+file_content = replacer(file_content, "<!-- Current time stamp -->", get_current_time())
+
+open("./index.html", "w").write(file_content)

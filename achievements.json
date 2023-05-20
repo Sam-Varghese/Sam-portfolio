@@ -12,16 +12,16 @@
         "0.74% Stack Overflow"
     ],
     "achievementsImage": [
-        "achievementsImages/TEDxNMIMSIndore.jpg",
-        "./images/AIR6IITK.jpg",
-        "achievementsImages/NMIMS.jpg",
-        "achievementsImages/devincept.jpg",
-        "achievementsImages/MicLogo.png",
-        "achievementsImages/hackerrank.jpg",
-        "achievementsImages/hackerrank.jpg",
-        "achievementsImages/hackerrank.jpg",
-        "achievementsImages/NCC.jpg",
-        "achievementsImages/stackOverflow.jpg"
+        "achievementsImages/TEDxNMIMSIndore.webp",
+        "./images/AIR6IITK.webp",
+        "achievementsImages/NMIMS.webp",
+        "achievementsImages/devincept.webp",
+        "achievementsImages/MicLogo.webp",
+        "achievementsImages/hackerrank.webp",
+        "achievementsImages/hackerrank.webp",
+        "achievementsImages/hackerrank.webp",
+        "achievementsImages/NCC.webp",
+        "achievementsImages/stackOverflow.webp"
     ],
     "achievementsDescription": [
         "Selected as Tech Lead for TEDxNMIMSIndore, managed all technical aspects, created & deployed React website on AWS.",
