@@ -8,6 +8,6 @@ After making any changes, execute [Powershell Script](./githubActioner.ps1) to u
 
 To edit the website, all you need to do is to update the respective json files, and execute [Python program](./website_builder.py). This will apply all the changes to the HTML file, and make it up to date.
 
-Please note that all the code has been minified, so unfortunately editing the code directly might get difficult. Use the python program. 
+Please note that all the code has been minified, so unfortunately editing the code directly might get difficult. Use the python program and powershell scripts. 
 
 Website is [MIT Licensed](./LICENSE)
