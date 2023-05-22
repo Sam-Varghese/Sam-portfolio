@@ -299,6 +299,11 @@ iframe {
     ) !important;
 }
 
+.discord{
+    background-image: linear-gradient(30deg, rgb(90, 110, 195), rgb(140, 160, 245)) !important;
+    color: white;
+}
+
 /* Contact Unit Methods */
 .contactUnitMethods {
     position: relative;

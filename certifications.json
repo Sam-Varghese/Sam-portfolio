@@ -1,5 +1,47 @@
 {
-    "titles": ["ML Specialization, Stanford","IIT, Merit Certificate","IITK Robotics Workshop","IITK ML Workshop", "Supervised ML", "Unsupervised ML", "Advance Learning Algo.", "Tensorflow Specialization", "CNN", "NLP", "Tensorflow Introduction", "Sequence, Time Series & Pred.", "GDSC NMIMS Shirpur"],
-    "deployedCertificatesPath": ["https://github.com/Sam-Varghese/Sam-portfolio/blob/e66350b8efd8303fc8f60946688a3ac12dd51edf/certificates/CourseCertificate.pdf", "", "", "", "", "", "", "", "", "", "","",""],
-    "imagePaths": ["./certificates/MLSepcialization.webp", "./certificates/IITK.webp","./certificates/IITK_Robotics_Workshop.jpg","./certificates/IITK_ML_Workshop.jpg","./certificates/SupervisedML.webp", "./certificates/UnsupervisedML.webp", "./certificates/AdvanceLearningML.webp", "./certificates/TfSpecialization.webp", "./certificates/CNN.webp", "./certificates/NLP.webp", "./certificates/TFIntro.webp", "./certificates/SequenceTimeSeries.webp", "./certificates/gdscShirpur.webp"]
+    "titles": [
+        "ML Specialization, Stanford",
+        "IIT, Merit Certificate",
+        "IITK Robotics Workshop",
+        "IITK ML Workshop",
+        "Supervised ML",
+        "Unsupervised ML",
+        "Advance Learning Algo.",
+        "Tensorflow Specialization",
+        "CNN",
+        "NLP",
+        "Tensorflow Introduction",
+        "Sequence, Time Series & Pred.",
+        "GDSC NMIMS Shirpur"
+    ],
+    "deployedCertificatesPath": [
+        "https://coursera.org/share/1fd23efbba68f3e38b421333cd4e6c0d",
+        "https://github.com/Sam-Varghese/Sam-portfolio/blob/7fc3001740c2b04acd0c2a0f88e129c68e50bcc6/certificates/IITK.webp",
+        "https://github.com/Sam-Varghese/Sam-portfolio/blob/0875d4258e6677f0371f178ac1b44a8ed41b83bc/certificates/IITK_Robotics_Workshop.jpg",
+        "https://github.com/Sam-Varghese/Sam-portfolio/blob/0875d4258e6677f0371f178ac1b44a8ed41b83bc/certificates/IITK_ML_Workshop.jpg",
+        "https://coursera.org/share/7ccb0421bf78e9ba20c0f3223fe2008f",
+        "https://coursera.org/share/9c59c7ee06949b968fe411776d1b7362",
+        "https://coursera.org/share/144a8c19580a719f41aee9527b5da13c",
+        "https://coursera.org/share/2ed580318a32a09c8eea330d2849c926",
+        "https://coursera.org/share/55c74df655d63cc9e4192b14e9fc4c2f",
+        "https://coursera.org/share/5e7167468e1cdde8980d55b7f073341e",
+        "https://coursera.org/share/66eccb4edd03ad8220ecbaba6cc4cd85",
+        "https://coursera.org/share/d04fd834a623e9b6b868d9d97be17ea6",
+        "https://github.com/Sam-Varghese/Sam-portfolio/blob/7fc3001740c2b04acd0c2a0f88e129c68e50bcc6/certificates/gdscShirpur.webp"
+    ],
+    "imagePaths": [
+        "./certificates/MLSepcialization.webp",
+        "./certificates/IITK.webp",
+        "./certificates/IITK_Robotics_Workshop.jpg",
+        "./certificates/IITK_ML_Workshop.jpg",
+        "./certificates/SupervisedML.webp",
+        "./certificates/UnsupervisedML.webp",
+        "./certificates/AdvanceLearningML.webp",
+        "./certificates/TfSpecialization.webp",
+        "./certificates/CNN.webp",
+        "./certificates/NLP.webp",
+        "./certificates/TFIntro.webp",
+        "./certificates/SequenceTimeSeries.webp",
+        "./certificates/gdscShirpur.webp"
+    ]
 }
