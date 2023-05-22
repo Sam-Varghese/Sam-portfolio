@@ -76,14 +76,17 @@ for i in range(len(projects_data["titles"])):
 # Updating achievements
 
 file_content=replacer(file_content, "<!-- Achievements flag -->", achievements_string)
+print("Achievements data updated")
 
 # Updating certifications
 
 file_content = replacer(file_content, "<!-- Certifications flag -->", certifications_string)
+print("Certifications data updated")
 
 # Updating projects
 
 file_content = replacer(file_content, "<!-- Projects flag -->", projects_string)
+print("Projects data updated")
 
 # Updating date
 
@@ -94,6 +97,7 @@ def get_current_time():
     return formatted_time + ", IST"
 
 file_content = replacer(file_content, "<!-- Current time stamp -->", get_current_time())
+print("Time stamps updated")
 
 # Minifying HTML
 
@@ -110,7 +114,7 @@ final_js_content = "<script>"+jsmin.jsmin(open("./index.js").read()) + "</script
 file_content = replacer(file_content, "<!-- JS Code -->",final_js_content)
 
 open("./index.html", "w").write(file_content)
-print("HTML code minified")
+print("HTML and Js code minified")
 open("./style.css", "w").write(final_css_content)
 print("CSS code minified")
 
