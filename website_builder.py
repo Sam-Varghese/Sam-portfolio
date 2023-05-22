@@ -105,7 +105,7 @@ final_css_content = compress(open("./style.css").read())
 
 # Minifying Js
 
-file_content = jsmin.jsmin(file_content)
+# file_content = jsmin.jsmin(file_content)
 
 open("./index.html", "w").write(file_content)
 print("HTML code minified")
