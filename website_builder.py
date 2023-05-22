@@ -2,6 +2,9 @@
 
 import json
 from datetime import datetime
+from htmlmin import minify
+from csscompressor import compress
+import jsmin
 
 achievements_data = open("./achievements.json").read()
 achievements_data = json.loads(achievements_data)
@@ -92,6 +95,21 @@ def get_current_time():
 
 file_content = replacer(file_content, "<!-- Current time stamp -->", get_current_time())
 
+# Minifying HTML
+
+file_content = minify(file_content)
+
+# Minifying CSS
+
+final_css_content = compress(open("./style.css").read())
+
+# Minifying Js
+
+file_content = jsmin.jsmin(file_content)
+
 open("./index.html", "w").write(file_content)
+print("HTML code minified")
+open("./style.css", "w").write(final_css_content)
+print("CSS code minified")
 
 print("Website updated sir.")
