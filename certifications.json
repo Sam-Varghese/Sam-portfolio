@@ -2,6 +2,7 @@
     "titles": [
         "ML Specialization, Stanford",
         "IIT, Merit Certificate",
+        "IITR Quantum Computing, GOI",
         "IITK Robotics Workshop",
         "IITK ML Workshop",
         "Supervised ML",
@@ -17,6 +18,7 @@
     "deployedCertificatesPath": [
         "https://coursera.org/share/1fd23efbba68f3e38b421333cd4e6c0d",
         "https://github.com/Sam-Varghese/Sam-portfolio/blob/7fc3001740c2b04acd0c2a0f88e129c68e50bcc6/certificates/IITK.webp",
+        "#",
         "https://github.com/Sam-Varghese/Sam-portfolio/blob/0875d4258e6677f0371f178ac1b44a8ed41b83bc/certificates/IITK_Robotics_Workshop.jpg",
         "https://github.com/Sam-Varghese/Sam-portfolio/blob/0875d4258e6677f0371f178ac1b44a8ed41b83bc/certificates/IITK_ML_Workshop.jpg",
         "https://coursera.org/share/7ccb0421bf78e9ba20c0f3223fe2008f",
@@ -32,6 +34,7 @@
     "imagePaths": [
         "./certificates/MLSepcialization.webp",
         "./certificates/IITK.webp",
+        "./certificates/QuantumComp.jpg",
         "./certificates/IITK_Robotics_Workshop.jpg",
         "./certificates/IITK_ML_Workshop.jpg",
         "./certificates/SupervisedML.webp",
