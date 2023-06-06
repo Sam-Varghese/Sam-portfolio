@@ -2,25 +2,29 @@
     "titles": [
         "Math Symbol Recognizer",
         "IITK, Underwater Explorer",
+        "Facial Landmarks Tracker",
         "Remote Controlled Car",
         "Scientific Calculator"
     ],
     "imagePaths": [
-        "./images/math.webp",
         "./images/IITKUnderwaterMachine.jpg",
         "./images/RemoteCar.jpg",
+        "https://editor.analyticsvidhya.com/uploads/84458468-facial-landmarks-python-points.jpg",
+        "./images/math.webp",
         "./images/calculator.webp"
     ],
     "desc": [
-        "A machine learning model which is capable of recognizing all the digits, as well as variables x, y, and z.",
         "Innovated underwater exploration machines by adjusting buoyancy through chemical reaction of Sodium Azide and Potassium Nitrate.",
         "Made in the robotics workshop of IITk, it's a mobile controlled car, made with Arduino, bluetooth module, motors, motor drivers, etc.",
+        "Detects all the facial landmarks like eyelids, eyelashes, chin, nose tip, and 478 such coordinates in 3D.",
+        "A machine learning model which is capable of recognizing all the digits, as well as variables x, y, and z.",
         "Made a scientific calculator with HTML, CSS and JavaScript. Learnt Math.js framework and about API's."
     ],
     "links": [
-        "https://github.com/Sam-Varghese/Handwritten-Math-Symbol-Recognizer",
         "https://docs.google.com/document/d/1tWIr4MePft_nwL3MTVku7df0t9v3JeI6bKAnpmUy-4E/edit?usp=sharing",
         "https://github.com/Sam-Varghese/Sam-portfolio/blob/03f52b3f06fd3fae652bb5b30213b758f285a871/certificates/IITK_Robotics_Workshop.jpg",
+        "https://github.com/Sam-Varghese/FaceLandmarkTracker",
+        "https://github.com/Sam-Varghese/Handwritten-Math-Symbol-Recognizer",
         "https://github.com/Sam-Varghese/Scientific-Calculator"
     ]
 }
