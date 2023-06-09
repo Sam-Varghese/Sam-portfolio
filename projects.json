@@ -1,32 +1,36 @@
 {
     "titles": [
         "IITK, Underwater Explorer",
-        "Remote Controlled Car",
         "Hand Gesture Controlled Computer",
+        "YOLOv7 Implementation",
+        "Remote Controlled Car",
         "Facial Landmarks Tracker",
         "Math Symbol Recognizer",
         "Scientific Calculator"
     ],
     "imagePaths": [
         "./images/IITKUnderwaterMachine.jpg",
-        "./images/RemoteCar.jpg",
         "./images/stark_tech.jpg",
+        "./images/tesla.png",
+        "./images/RemoteCar.jpg",
         "https://editor.analyticsvidhya.com/uploads/84458468-facial-landmarks-python-points.jpg",
         "./images/math.webp",
         "./images/calculator.webp"
     ],
     "desc": [
         "Innovated underwater exploration machines by adjusting buoyancy through chemical reaction of Sodium Azide and Potassium Nitrate.",
-        "Made in the robotics workshop of IITk, it's a mobile controlled car, made with Arduino, bluetooth module, motors, motor drivers, etc.",
         "AI program that controls the laptop in whichever way you want, only through hand gestures. Leverages Google models, trained on more than 30K manually annotated data.",
+        "It surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy among all real-time object detectors.",
+        "Made in the robotics workshop of IITk, it's a mobile controlled car, made with Arduino, bluetooth module, motors, motor drivers, etc.",
         "Detects all the facial landmarks like eyelids, eyelashes, chin, nose tip, and 478 such coordinates in 3D from live camera footages.",
         "A machine learning model which is capable of recognizing all the digits, as well as variables x, y, and z.",
         "Made a scientific calculator with HTML, CSS and JavaScript. Learnt Math.js framework and about API's."
     ],
     "links": [
         "https://docs.google.com/document/d/1tWIr4MePft_nwL3MTVku7df0t9v3JeI6bKAnpmUy-4E/edit?usp=sharing",
-        "https://github.com/Sam-Varghese/Sam-portfolio/blob/03f52b3f06fd3fae652bb5b30213b758f285a871/certificates/IITK_Robotics_Workshop.jpg",
         "https://github.com/Sam-Varghese/HandTrackerControlledComputer",
+        "https://github.com/Sam-Varghese/YOLOv7_Implementation",
+        "https://github.com/Sam-Varghese/Sam-portfolio/blob/03f52b3f06fd3fae652bb5b30213b758f285a871/certificates/IITK_Robotics_Workshop.jpg",
         "https://github.com/Sam-Varghese/FaceLandmarkTracker",
         "https://github.com/Sam-Varghese/Handwritten-Math-Symbol-Recognizer",
         "https://github.com/Sam-Varghese/Scientific-Calculator"
