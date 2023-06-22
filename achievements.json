@@ -1,8 +1,8 @@
 {
     "achievementsTitle": [
         "Tech Lead, TEDxNMIMSIndore",
-        "AIR 6, IITK",
         "Kavach Finalist, GoI",
+        "AIR 6, IITK",
         "CR, NMIMS",
         "Camp. Ambsdr, Devincept",
         "Microsoft Technology Associate",
@@ -14,8 +14,8 @@
     ],
     "achievementsImage": [
         "achievementsImages/TEDxNMIMSIndore.webp",
-        "./images/AIR6IITK.webp",
         "./images/kavach.png",
+        "./images/AIR6IITK.webp",
         "achievementsImages/NMIMS.webp",
         "achievementsImages/devincept.webp",
         "achievementsImages/MicLogo.webp",
@@ -27,8 +27,8 @@
     ],
     "achievementsDescription": [
         "Selected as Tech Lead for TEDxNMIMSIndore, managed all technical aspects, created & deployed React website on AWS.",
-        "Designed underwater exploration device, selected for IITK techfest, secured AIR 6 & invited to IITK.",
         "Organized by the Govt of India, with Ministry of Edu. this was a hackathon that targeted the field of Cyber Security.",
+        "Designed underwater exploration device, selected for IITK techfest, secured AIR 6 & invited to IITK.",
         "Class representative of NMIMS MBATech branch, selected by Dean Dr Aaquil based on grades, responsible for decisions & coordination.",
         "Selected as devincept campus ambassador after interviews, attended sessions, hackathons & found tech experts for events.",
         "Recognized as Microsoft Technology Associate in 12th grade after clearing 98-381 exam for python programming language.",
