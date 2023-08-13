@@ -1,0 +1,38 @@
+{
+    "titles": [
+        "Careers 360",
+        "Dainik Bhaskar",
+        "Zollege",
+        "Spandan NMIMS",
+        "Spandan NMIMS",
+        "Raj News Network",
+        "NMIMS, Linkedin",
+        "NMIMS, Instagram",
+        "NMIMS, Facebook",
+        "NMIMS, Twitter"
+    ],
+    "newsLink": [
+        "https://news.careers360.com/nmims-indore-btech-mba-computer-science-ai-ml-model-read-hand-gestures-apple-vision-pro-student",
+        "",
+        "https://zollege.in/news/c-218752-nmims-indore-stme-student-recognized-for-ground-breaking-hand-gesture-recognition-ml-model",
+        "https://spandan.nmims.edu/2023/07/26/nmims-indore-stme-student-recognized-for-ground-breaking-hand-gesture-recognition-ml-model/",
+        "https://spandan.nmims.edu/2023/07/26/nmims-indore-stme-students-excel-in-kavach-2023-cyber-security-hackathon/",
+        "",
+        "https://www.linkedin.com/posts/nmims-indore_nmims-nmimsindore-stme-activity-7090245543263662081-5FCN?utm_source=share&utm_medium=member_desktop",
+        "https://www.instagram.com/p/CvMbFbyMvrG/?utm_source=ig_web_copy_link&igshid=MzRlODBiNWFlZA==",
+        "https://www.facebook.com/NmimsIndore/posts/701275302014172",
+        "https://twitter.com/NmimsIndore/status/1685954852067971072"
+    ],
+    "imagePath": [
+        "newsImages/careers360.png",
+        "newsImages/DainikBhaskar1.jpg",
+        "newsImages/zollege1.png",
+        "newsImages/spandan1.png",
+        "newsImages/spandan2.png",
+        "newsImages/rajNews.jpg",
+        "newsImages/NMIMS1.png",
+        "newsImages/NMIMS2.png",
+        "newsImages/NMIMS3.png",
+        "newsImages/twitter1.png"
+    ]
+}

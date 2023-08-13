@@ -62,6 +62,9 @@ achievementsNavItem.onclick = () => {
 certificationsNavItem.onclick = () => {
     document.getElementById("certificationsPageHeading").scrollIntoView();
 };
+newsNavItem.onclick = () => {
+    document.getElementById("newsPageHeading").scrollIntoView();
+};
 projectsNavItem.onclick = () => {
     document.getElementById("projectsPageHeading").scrollIntoView();
 };

@@ -45,6 +45,23 @@ for i in range(len(certifications_data["titles"])):
             </div>
     """.format(certifications_data["titles"][i], certifications_data["deployedCertificatesPath"][i], certifications_data["imagePaths"][i])
 
+news_data = open("./news.json").read()
+news_data = json.loads(news_data)
+news_string = ""
+
+for i in range(len(news_data["titles"])):
+    news_string += """
+    <div id="achievement">
+                <div class="title">{}</div>
+                <div class="image">
+                    <a href="{}" target="_blank">
+                        <img loading="lazy" src="{}" alt=""
+                    /></a>
+                </div>
+            </div>
+    """.format(news_data["titles"][i], news_data["newsLink"][i], news_data["imagePath"][i])
+
+
 def replacer(original_string, start_flag, append_content):
 
     string_lst = original_string.split(start_flag)
@@ -87,6 +104,10 @@ print("Certifications data updated")
 
 file_content = replacer(file_content, "<!-- Projects flag -->", projects_string)
 print("Projects data updated")
+
+# Updating media appearance records
+
+file_content = replacer(file_content, "<!-- Media flag -->", news_string)
 
 # Updating date
 
