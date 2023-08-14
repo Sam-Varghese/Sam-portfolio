@@ -2,6 +2,7 @@
     "titles": [
         "IITK, Underwater Explorer",
         "Hand Gesture Controlled Computer",
+        "Crime Detection, BPRD Project",
         "YOLOv7 Implementation",
         "Remote Controlled Car",
         "Facial Landmarks Tracker",
@@ -11,6 +12,7 @@
     "imagePaths": [
         "./images/IITKUnderwaterMachine.jpg",
         "./images/stark_tech.jpg",
+        "./images/kavachProject.jpg",
         "./images/tesla.png",
         "./images/RemoteCar.jpg",
         "https://editor.analyticsvidhya.com/uploads/84458468-facial-landmarks-python-points.jpg",
@@ -20,6 +22,7 @@
     "desc": [
         "Innovated underwater exploration machines by adjusting buoyancy through chemical reaction of Sodium Azide and Potassium Nitrate.",
         "AI program that controls the laptop in whichever way you want, only through hand gestures. Leverages Google models, trained on more than 30K manually annotated data.",
+        "Developed for the Beureau of Police Research and Development after the team I lead got among the top 5 teams of the country out of 3,900. It detects crimes and street incidents just through CCTV footages.",
         "It surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy among all real-time object detectors.",
         "Made in the robotics workshop of IITk, it's a mobile controlled car, made with Arduino, bluetooth module, motors, motor drivers, etc.",
         "Detects all the facial landmarks like eyelids, eyelashes, chin, nose tip, and 478 such coordinates in 3D from live camera footages.",
@@ -29,6 +32,7 @@
     "links": [
         "https://docs.google.com/document/d/1tWIr4MePft_nwL3MTVku7df0t9v3JeI6bKAnpmUy-4E/edit?usp=sharing",
         "https://github.com/Sam-Varghese/HandTrackerControlledComputer",
+        "https://github.com/Sam-Varghese/NM_VisionaryTitans",
         "https://github.com/Sam-Varghese/YOLOv7_Implementation",
         "https://github.com/Sam-Varghese/Sam-portfolio/blob/03f52b3f06fd3fae652bb5b30213b758f285a871/certificates/IITK_Robotics_Workshop.jpg",
         "https://github.com/Sam-Varghese/FaceLandmarkTracker",
