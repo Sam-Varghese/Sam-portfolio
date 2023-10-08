@@ -40,9 +40,6 @@ Cal("ui", {
     hideEventTypeDetails: false,
 });
 
-
-
-
 var introNavItem = document.getElementById("introNavItem");
 educationNavItem = document.getElementById("educationNavItem");
 achievementsNavItem = document.getElementById("achievementsNavItem");
@@ -87,9 +84,7 @@ const observer = new IntersectionObserver(
     { threshold: 0.5 }
 );
 
-//   // Observe the target element
-//   const target = document.querySelector('.heading');
-//   observer.observe(target);
+// Observe the target element
 
 const headings = document.querySelectorAll(".heading");
 headings.forEach((heading) => {
