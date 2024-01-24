@@ -1,4 +1,4 @@
-py "./website_builder.py"
+python "./website_builder.py"
 
 git add .
 

@@ -1,6 +1,7 @@
 {
     "titles": [
         "IITK, Underwater Explorer",
+        "Real Time Street Parking System",
         "Hand Gesture Controlled Computer",
         "Crime Detection, BPRD Project",
         "YOLOv7 Implementation",
@@ -11,6 +12,7 @@
     ],
     "imagePaths": [
         "./images/IITKUnderwaterMachine.jpg",
+        "./images/sih.webp",
         "./images/stark_tech.jpg",
         "./images/kavachProject.jpg",
         "./images/tesla.png",
@@ -21,6 +23,7 @@
     ],
     "desc": [
         "Innovated underwater exploration machines by adjusting buoyancy through chemical reaction of Sodium Azide and Potassium Nitrate.",
+        "Developed for the Ministry of Housing and Urban Affairs, this street parking technology was awarded 1 Lakh by GoI.",
         "AI program that controls the laptop in whichever way you want, only through hand gestures. Leverages Google models, trained on more than 30K manually annotated data.",
         "Developed for the Beureau of Police Research and Development after the team I lead got among the top 5 teams of the country out of 3,900. It detects crimes and street incidents just through CCTV footages.",
         "It surpasses all known object detectors in both speed and accuracy in the range from 5 FPS to 160 FPS and has the highest accuracy among all real-time object detectors.",
@@ -31,6 +34,7 @@
     ],
     "links": [
         "https://docs.google.com/document/d/1tWIr4MePft_nwL3MTVku7df0t9v3JeI6bKAnpmUy-4E/edit?usp=sharing",
+        "",
         "https://github.com/Sam-Varghese/HandTrackerControlledComputer",
         "https://github.com/Sam-Varghese/NM_VisionaryTitans",
         "https://github.com/Sam-Varghese/YOLOv7_Implementation",

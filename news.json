@@ -1,6 +1,7 @@
 {
     "titles": [
         "Careers 360",
+        "Times of India",
         "Dainik Bhaskar",
         "Zollege",
         "Spandan NMIMS",
@@ -13,6 +14,7 @@
     ],
     "newsLink": [
         "https://news.careers360.com/nmims-indore-btech-mba-computer-science-ai-ml-model-read-hand-gestures-apple-vision-pro-student",
+        "https://drive.google.com/file/d/1a7-8AuIHtzdk3XkJCEqIn57aYSwcbUha/view?usp=sharing",
         "",
         "https://zollege.in/news/c-218752-nmims-indore-stme-student-recognized-for-ground-breaking-hand-gesture-recognition-ml-model",
         "https://spandan.nmims.edu/2023/07/26/nmims-indore-stme-student-recognized-for-ground-breaking-hand-gesture-recognition-ml-model/",
@@ -25,6 +27,7 @@
     ],
     "imagePath": [
         "newsImages/careers360.png",
+        "newsImages/ToI.webp",
         "newsImages/DainikBhaskar1.jpg",
         "newsImages/zollege1.png",
         "newsImages/spandan1.png",

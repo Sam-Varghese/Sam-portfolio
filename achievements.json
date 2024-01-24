@@ -1,6 +1,7 @@
 {
     "achievementsTitle": [
         "Tech Lead, TEDxNMIMSIndore",
+        "Winner, Smart India Hackathon 2023",
         "Kavach Finalist, GoI",
         "AIR 6, IITK",
         "CR, NMIMS",
@@ -14,6 +15,7 @@
     ],
     "achievementsImage": [
         "achievementsImages/TEDxNMIMSIndore.webp",
+        "achievementsImages/sih.webp",
         "./images/kavach.png",
         "./images/AIR6IITK.webp",
         "achievementsImages/NMIMS.webp",
@@ -28,6 +30,7 @@
     "achievementsDescription": [
         "Selected as Tech Lead for TEDxNMIMSIndore, managed all technical aspects, created & deployed React website on AWS.",
         "Organized by the Govt of India, with Ministry of Edu. this was a hackathon that targeted the field of Cyber Security.",
+        "Won SIH in the category SIH1515 by the Ministry of Housing and Urban Affairs GoI, got interviewed by Ministry of Edu., and awarded with 1 Lakh cash prize.",
         "Designed underwater exploration device, selected for IITK techfest, secured AIR 6 & invited to IITK.",
         "Class representative of NMIMS MBATech branch, selected by Dean Dr Aaquil based on grades, responsible for decisions & coordination.",
         "Selected as devincept campus ambassador after interviews, attended sessions, hackathons & found tech experts for events.",
